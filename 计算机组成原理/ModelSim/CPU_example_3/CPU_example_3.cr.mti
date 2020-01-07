@@ -1,0 +1,190 @@
+E:/ModelSim/CPU_example_3/test_mux.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/test_mux.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module mux2_test
+
+Top level modules:
+	mux2_test
+
+} {} {}} E:/ModelSim/CPU_example_3/test_alu.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/test_alu.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module ALUtest
+
+Top level modules:
+	ALUtest
+
+} {} {}} E:/ModelSim/CPU_example_3/mips.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/mips.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module ctrl
+-- Compiling module control
+-- Compiling module npc
+-- Compiling module pc
+-- Compiling module regfile
+-- Compiling module ALU
+-- Compiling module signext
+-- Compiling module dm_4k
+-- Compiling module mux
+-- Compiling module im_4k
+-- Compiling module trancode
+-- Compiling module datapath
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} E:/ModelSim/CPU_example_3/test_pc.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/test_pc.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module pc_test
+
+Top level modules:
+	pc_test
+
+} {} {}} E:/ModelSim/CPU_example_3/signext.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/signext.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module signext
+
+Top level modules:
+	signext
+
+} {} {}} E:/ModelSim/CPU_example_3/pc.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/pc.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} E:/ModelSim/CPU_example_3/im_4k.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/im_4k.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module im_4k
+
+Top level modules:
+	im_4k
+
+} {} {}} E:/ModelSim/CPU_example_3/test_signex.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/test_signex.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module signnext_text
+
+Top level modules:
+	signnext_text
+
+} {} {}} E:/ModelSim/CPU_example_3/test_cpu.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/test_cpu.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module ctrl
+-- Compiling module control
+-- Compiling module npc
+-- Compiling module pc
+-- Compiling module regfile
+-- Compiling module ALU
+-- Compiling module signext
+-- Compiling module dm_4k
+-- Compiling module mux
+-- Compiling module im_4k
+-- Compiling module trancode
+-- Compiling module datapath
+-- Compiling module mips
+-- Compiling module test_cpu
+
+Top level modules:
+	test_cpu
+
+} {} {}} E:/ModelSim/CPU_example_3/datapath.v {1 {vlog -work work -vopt -stats=none {E:\ModelSim\CPU_example_3\datapath.v}
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module npc
+-- Compiling module pc
+-- Compiling module regfile
+-- Compiling module ALU
+-- Compiling module signext
+-- Compiling module dm_4k
+-- Compiling module mux
+-- Compiling module im_4k
+-- Compiling module trancode
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} E:/ModelSim/CPU_example_3/control.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/control.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module ctrl
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} E:/ModelSim/CPU_example_3/npc.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/npc.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} E:/ModelSim/CPU_example_3/ALU.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/ALU.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/ModelSim/CPU_example_3/mux.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/mux.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} E:/ModelSim/CPU_example_3/test_im4k.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/test_im4k.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module im_4k_test
+
+Top level modules:
+	im_4k_test
+
+} {} {}} E:/ModelSim/CPU_example_3/test_ctrl.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/test_ctrl.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module test_ctrl
+
+Top level modules:
+	test_ctrl
+
+} {} {}} E:/ModelSim/CPU_example_3/ctrl.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/ctrl.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} E:/ModelSim/CPU_example_3/regfile.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/regfile.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} E:/ModelSim/CPU_example_3/test_dm4k.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/test_dm4k.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module dm_4k_test
+
+Top level modules:
+	dm_4k_test
+
+} {} {}} E:/ModelSim/CPU_example_3/dm_4k.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/dm_4k.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module dm_4k
+
+Top level modules:
+	dm_4k
+
+} {} {}} E:/ModelSim/CPU_example_3/trancode.v {1 {vlog -work work -vopt -stats=none {E:\ModelSim\CPU_example_3\trancode.v}
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module trancode
+
+Top level modules:
+	trancode
+
+} {} {}} E:/ModelSim/CPU_example_3/test_npc.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_3/test_npc.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module npc_test
+
+Top level modules:
+	npc_test
+
+} {} {}}

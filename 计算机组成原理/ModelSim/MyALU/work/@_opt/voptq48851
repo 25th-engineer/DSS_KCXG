@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+dE:\ModelSim\ALU
+T_opt
+VJ34Wn7[3I5nPQFo@EPma?1
+04 8 4 work MyALU_tb fast 0
+=1-3c2c30ac982b-5de63b66-333-3c08
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OE;O;10.1a;51
+vALU
+Igf5[j?`jRRXUTo=bB4?Tz3
+V<>QeKRI=099e_kldD`>eV2
+Z0 dE:\ModelSim\MyALU
+w1575362168
+8E:/ModelSim/MyALU/MyALU.v
+FE:/ModelSim/MyALU/MyALU.v
+L0 1
+Z1 OE;L;10.1a;51
+r1
+31
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@a@l@u
+!s100 2kNK1nXK`HWb[RH8_18g82
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/MyALU/MyALU.v|
+!s108 1575369562.797000
+!s107 E:/ModelSim/MyALU/MyALU.v|
+!i10b 1
+!s85 0
+vMyALU_tb
+Id3L0J=4GnfRmU0_8B>4BZ3
+VSjnRLVHdSUGU^;1b5Y>:G2
+Z3 dE:\ModelSim\MyALU
+w1575369542
+8E:/ModelSim/MyALU/MyALU_tb.v
+FE:/ModelSim/MyALU/MyALU_tb.v
+L0 1
+R1
+r1
+31
+R2
+n@my@a@l@u_tb
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/MyALU/MyALU_tb.v|
+!i10b 1
+!s100 YF>^2@HzC6Jb8BYKk_mZA3
+!s85 0
+!s108 1575369563.131000
+!s107 E:/ModelSim/MyALU/MyALU_tb.v|

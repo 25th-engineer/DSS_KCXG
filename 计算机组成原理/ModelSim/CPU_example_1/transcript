@@ -1,0 +1,47 @@
+# Compile of data_memory.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of mips_16.v was successful.
+# Compile of tb_mips16.v was successful.
+# Compile of register_file.v was successful.
+# 6 compiles, 0 failed with no errors. 
+# Compile of data_memory.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of mips_16.v was successful.
+# Compile of tb_mips16.v was successful.
+# Compile of register_file.v was successful.
+# Compile of instr_mem.v was successful.
+# 7 compiles, 0 failed with no errors. 
+# Compile of data_memory.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of mips_16.v was successful.
+# Compile of tb_mips16.v was successful.
+# Compile of register_file.v was successful.
+# Compile of instr_mem.v was successful.
+# Compile of alu.v was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -novopt work.tb_mips16
+# vsim -novopt work.tb_mips16 
+# Refreshing E:\ModelSim\CPU_example_1\work.tb_mips16
+# Loading work.tb_mips16
+# Refreshing E:\ModelSim\CPU_example_1\work.mips_16
+# Loading work.mips_16
+# Refreshing E:\ModelSim\CPU_example_1\work.instr_mem
+# Loading work.instr_mem
+# Refreshing E:\ModelSim\CPU_example_1\work.control
+# Loading work.control
+# Refreshing E:\ModelSim\CPU_example_1\work.register_file
+# Loading work.register_file
+# Refreshing E:\ModelSim\CPU_example_1\work.JR_Control
+# Loading work.JR_Control
+# Refreshing E:\ModelSim\CPU_example_1\work.ALUControl
+# Loading work.ALUControl
+# Refreshing E:\ModelSim\CPU_example_1\work.alu
+# Loading work.alu
+# Refreshing E:\ModelSim\CPU_example_1\work.data_memory
+# Loading work.data_memory
+add wave -position insertpoint sim:/tb_mips16/uut/*
+run -all
+# Closing project E:/ModelSim/CPU_example_1/CPU_example_1.mpf

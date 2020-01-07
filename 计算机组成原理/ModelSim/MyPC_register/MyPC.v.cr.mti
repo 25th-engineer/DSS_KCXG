@@ -1,0 +1,15 @@
+E:/ModelSim/MyPC_register/MyPC.v {1 {vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module MyPC
+
+Top level modules:
+	MyPC
+
+} {} {}} E:/ModelSim/MyPC_register/MyPC_tb.v {1 {vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module MyPC_tb
+
+Top level modules:
+	MyPC_tb
+
+} {} {}}

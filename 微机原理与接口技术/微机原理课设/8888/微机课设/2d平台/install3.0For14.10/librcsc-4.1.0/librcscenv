@@ -1,0 +1,16 @@
+#!/bin/sh
+
+prefix="/usr/local"
+exec_prefix="${prefix}"
+libdir="${exec_prefix}/lib"
+
+if [ x"${libdir}" != x ]; then
+  if [ x"${LD_LIBRARY_PATH}" = x ]; then
+    LD_LIBRARY_PATH="${libdir}"
+  else
+    LD_LIBRARY_PATH="${libdir}:${LD_LIBRARY_PATH}"
+  fi
+  export LD_LIBRARY_PATH
+fi
+
+exec ${1+"$@"}

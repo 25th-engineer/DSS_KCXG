@@ -1,0 +1,1121 @@
+# Reading C:/Program Files (x86)/modelsim_win32_10.1a/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile E:/ModelSim/MyALU/ALU.mpf 
+# Loading project ALU
+# vlog -work work -vopt E:/ModelSim/MyALU/MyALU.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyALU/MyALU_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyALU_tb
+# 
+# Top level modules:
+# 	MyALU_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.MyALU_tb
+# vsim -voptargs=+acc work.MyALU_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.MyALU_tb(fast)
+# Loading work.ALU(fast)
+add wave -position insertpoint sim:/MyALU_tb/test1/*
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/MyALU_tb/test2/*
+view -new wave
+# .main_pane.wave2.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/MyALU_tb/test3/*
+view -new wave
+# .main_pane.wave3.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/MyALU_tb/test4/*
+view -new wave
+# .main_pane.wave4.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/MyALU_tb/test5/*
+view -new wave
+# .main_pane.wave5.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/MyALU_tb/test6/*
+view -new wave
+# .main_pane.wave6.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/MyALU_tb/test7/*
+view -new wave
+# .main_pane.wave7.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/MyALU_tb/test8/*
+run -all
+# Break in Module MyALU_tb at E:/ModelSim/MyALU/MyALU_tb.v line 20
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+# Closing project E:/ModelSim/MyALU/ALU.mpf
+# reading C:\Program Files (x86)\modelsim_win32_10.1a\win32/../modelsim.ini
+# Loading project RegisterBank
+# Compile of registerBank.v was successful.
+# Compile of registerBank.v was successful.
+# Compile of registerBank_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vcom -work work -2002 -explicit -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+# -- Loading package STANDARD
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(1): near "module": syntax error
+# 
+# 
+# 2 compiles, 1 failed with 1 error. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vcom -work work -2002 -explicit -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 22 2012
+# -- Loading package STANDARD
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(1): near "module": syntax error
+# 
+# 
+# 2 compiles, 1 failed with 1 error. 
+# bad option "GetRegisteredFile": should be one of...
+#   .main_pane.source3 Activate ?arg arg ...?
+#   .main_pane.source3 AddDefaultMenu menu_bar
+#   .main_pane.source3 AddDefaultToolbar toolbar
+#   .main_pane.source3 AddHeaderIcon
+#   .main_pane.source3 AnimateImage
+#   .main_pane.source3 ClearData
+#   .main_pane.source3 DataExist varName
+#   .main_pane.source3 DataRef varName
+#   .main_pane.source3 Deactivate
+#   .main_pane.source3 DelayedAnimation ?arg arg ...?
+#   .main_pane.source3 Dock
+#   .main_pane.source3 DumpAll where
+#   .main_pane.source3 DumpData where
+#   .main_pane.source3 FindSubWidget w
+#   .main_pane.source3 FindSubWidgetRecursive w
+#   .main_pane.source3 FrameName
+#   .main_pane.source3 GetBody
+#   .main_pane.source3 GetClientFooter
+#   .main_pane.source3 GetData ?name?
+#   .main_pane.source3 GetMenuBar
+#   .main_pane.source3 GetRegisteredChild
+#   .main_pane.source3 GetRegisteredView
+#   .main_pane.source3 GetTabIcon
+#   .main_pane.source3 GetToolbar
+#   .main_pane.source3 GetUndockGeom
+#   .main_pane.source3 GetUndockGeomHistory
+#   .main_pane.source3 HeaderIcon
+#   .main_pane.source3 IsActivated ?arg arg ...?
+#   .main_pane.source3 IsIconified
+#   .main_pane.source3 IsViable
+#   .main_pane.source3 PageSelected
+#   .main_pane.source3 RemoveData name
+#   .main_pane.source3 RemoveHeaderIcon
+#   .main_pane.source3 Reset
+#   .main_pane.source3 ResetBody
+#   .main_pane.source3 SetData name value
+#   .main_pane.source3 SetMaxButtonIcon
+#   .main_pane.source3 SetTabIcon tab
+#   .main_pane.source3 SetUndockGeom geom
+#   .main_pane.source3 SetUndockGeomHistory geom
+#   .main_pane.source3 StopAnimateImage
+#   .main_pane.source3 SubWidgetActivate
+#   .main_pane.source3 SubWidgetDeActivate
+#   .main_pane.source3 TabLabel
+#   .main_pane.source3 TestCallBacks
+#   .main_pane.source3 TestForCallBack callback
+#   .main_pane.source3 Title
+#   .main_pane.source3 UnDock
+#   .main_pane.source3 UpdateText
+#   .main_pane.source3 WindowClosing
+#   .main_pane.source3 WindowInTransition
+#   .main_pane.source3 WindowOpening
+#   .main_pane.source3 WindowUnDocked
+#   .main_pane.source3 _Dock
+#   .main_pane.source3 _UnDock
+#   .main_pane.source3 _dump_queue
+#   .main_pane.source3 _hidecommand_
+#   .main_pane.source3 _trigger_show_cmd ?general_update?
+#   .main_pane.source3 cget option
+#   .main_pane.source3 childsite
+#   .main_pane.source3 component ?name? ?arg arg ...?
+#   .main_pane.source3 config ?option? ?arg arg ...?
+#   .main_pane.source3 configure ?option? ?arg arg ...?
+#   .main_pane.source3 invoke what
+#   .main_pane.source3 isa className
+#   .main_pane.source3 itk_component option ?arg arg ...?
+#   .main_pane.source3 itk_initialize ?arg arg ...?
+#   .main_pane.source3 itk_option option ?arg arg ...?
+#   .main_pane.source3 winInside w
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2730) Undefined variable: 'addrB'.
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(26): near "end": syntax error, unexpected end, expecting ';'
+# 
+# 
+# 2 compiles, 1 failed with 2 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(26): near "end": syntax error, unexpected end, expecting ';'
+# 
+# 
+# 2 compiles, 1 failed with 1 error. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(35): near "EOF": syntax error, unexpected end of source code
+# 
+# 
+# 2 compiles, 1 failed with 1 error. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrA.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrB.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: inAddr.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# 2 compiles, 1 failed with 4 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrA.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrB.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: inAddr.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(15): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(22): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(23): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# 2 compiles, 1 failed with 4 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrA.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrB.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: inAddr.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(15): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(22): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(23): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# 2 compiles, 1 failed with 4 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2730) Undefined variable: 'addrB'.
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(26): near "end": syntax error, unexpected end, expecting ';'
+# 
+# 
+# 2 compiles, 1 failed with 2 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrA.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrB.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: inAddr.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# 2 compiles, 1 failed with 4 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(26): near "end": syntax error, unexpected end, expecting ';'
+# 
+# 
+# 2 compiles, 1 failed with 1 error. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrA.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrB.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: inAddr.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# 2 compiles, 1 failed with 4 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrA.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: addrB.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(2): In, out, or inout does not appear in port list: inAddr.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# 2 compiles, 1 failed with 4 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# 2 compiles, 1 failed with 4 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# 2 compiles, 1 failed with 4 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(25): near "end": syntax error, unexpected end, expecting ';'
+# 
+# 
+# 2 compiles, 1 failed with 1 error. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(24): near "?": syntax error, unexpected '?', expecting ';'
+# 
+# 
+# 2 compiles, 1 failed with 1 error. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# 2 compiles, 1 failed with 4 errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(32): near "EOF": syntax error, unexpected end of source code
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): (vlog-2110) Illegal reference to net "inAddr".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): (vlog-2110) Illegal reference to net "addrA".
+# 
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): (vlog-2110) Illegal reference to net "addrB".
+# 
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): LHS in procedural continuous assignment may not be a net: inAddr.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): LHS in procedural continuous assignment may not be a net: inAddr.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): LHS in procedural continuous assignment may not be a net: addrA.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): LHS in procedural continuous assignment may not be a net: addrB.
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(14): LHS in procedural continuous assignment may not be a net: inAddr.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(19): LHS in procedural continuous assignment may not be a net: inAddr.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(20): LHS in procedural continuous assignment may not be a net: addrA.
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(21): LHS in procedural continuous assignment may not be a net: addrB.
+# 
+# 
+# reading C:\Program Files (x86)\modelsim_win32_10.1a\win32/../modelsim.ini
+# Loading project MyPC.v
+# Compile of MyPC.v failed with 1 errors.
+# Compile of MyPC.v failed with 1 errors.
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Warning: E:/ModelSim/MyPC_register/MyPC.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(14): near "+=": Operator only allowed in SystemVerilog.
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Warning: E:/ModelSim/MyPC_register/MyPC.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(14): near "+=": Operator only allowed in SystemVerilog.
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Warning: E:/ModelSim/MyPC_register/MyPC.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(16): Register is illegal in left-hand side of continuous assignment
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Warning: E:/ModelSim/MyPC_register/MyPC.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(16): Register is illegal in left-hand side of continuous assignment
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Warning: E:/ModelSim/MyPC_register/MyPC.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(10): (vlog-2110) Illegal reference to net "tmpPC".
+# 
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(12): (vlog-2110) Illegal reference to net "tmpPC".
+# 
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(14): (vlog-2110) Illegal reference to net "tmpPC".
+# 
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(16): Register is illegal in left-hand side of continuous assignment
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Warning: E:/ModelSim/MyPC_register/MyPC.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Warning: E:/ModelSim/MyPC_register/MyPC.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Warning: E:/ModelSim/MyPC_register/MyPC.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(16): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(16): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(11): (vlog-2730) Undefined variable: 'tmpPC'.
+# 
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(8): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(8): Register is illegal in left-hand side of continuous assignment
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(8): Register is illegal in left-hand side of continuous assignment
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# ** Error: E:/ModelSim/MyPC_register/MyPC.v(8): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(7): near "and": syntax error, unexpected and, expecting ';'
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(7): near "and": syntax error, unexpected and, expecting ';'
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(7): near "and": syntax error, unexpected and, expecting ';'
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(10): near "endmodule": syntax error, unexpected endmodule, expecting ';'
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(8): near "initial": syntax error, unexpected initial, expecting ';'
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(10): LHS in procedural continuous assignment may not be a net: clk.
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(12): LHS in procedural continuous assignment may not be a net: clk.
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(8): near "initial": syntax error, unexpected initial
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+vsim -voptargs=+acc work.MyPC_tb
+# vsim -voptargs=+acc work.MyPC_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.MyPC_tb(fast)
+# Loading work.MyPC(fast)
+# ** Error: (vsim-3053) E:/ModelSim/MyPC_register/MyPC_tb.v(23): Illegal output or inout port connection for "port 'pcAddr'".
+# 
+#         Region: /MyPC_tb/pc1
+# Error loading design
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.MyPC_tb
+# vsim -voptargs=+acc work.MyPC_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.MyPC_tb(fast)
+# Loading work.MyPC(fast)
+# ** Error: (vsim-3053) E:/ModelSim/MyPC_register/MyPC_tb.v(22): Illegal output or inout port connection for "port 'pcAddr'".
+# 
+#         Region: /MyPC_tb/pc1
+# Error loading design
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.MyPC_tb
+# vsim -voptargs=+acc work.MyPC_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.MyPC_tb(fast)
+# Loading work.MyPC(fast)
+run -all
+# Break in Module MyPC_tb at E:/ModelSim/MyPC_register/MyPC_tb.v line 14
+run -all
+# Break key hit 
+# Break in Module MyPC_tb at E:/ModelSim/MyPC_register/MyPC_tb.v line 7
+run -all
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+add wave -position insertpoint sim:/MyPC_tb/pc1/*
+run -all
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.MyPC_tb
+# vsim -voptargs=+acc work.MyPC_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.MyPC_tb(fast)
+# Loading work.MyPC(fast)
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/MyPC_tb/pc1/*
+run -all
+# Break in Module MyPC_tb at E:/ModelSim/MyPC_register/MyPC_tb.v line 16
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.MyPC_tb
+# vsim -voptargs=+acc work.MyPC_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.MyPC_tb(fast)
+# Loading work.MyPC(fast)
+add wave -position insertpoint sim:/MyPC_tb/pc1/*
+run -all
+# Break in Module MyPC_tb at E:/ModelSim/MyPC_register/MyPC_tb.v line 16
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.MyPC_tb
+# vsim -voptargs=+acc work.MyPC_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.MyPC_tb(fast)
+# Loading work.MyPC(fast)
+run -all
+# Break in Module MyPC_tb at E:/ModelSim/MyPC_register/MyPC_tb.v line 16
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/MyPC_tb/pc1/*
+run -all
+run -all
+run -all
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.MyPC_tb
+# vsim -voptargs=+acc work.MyPC_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.MyPC_tb(fast)
+# Loading work.MyPC(fast)
+run -all
+# Break in Module MyPC_tb at E:/ModelSim/MyPC_register/MyPC_tb.v line 16
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(7): near "'0": syntax error, unexpected UNSIZED_BIT, expecting ';'
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(10): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(10): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# 
+# 
+# 2 compiles, 1 failed with 1 error. 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# ** Error: E:/ModelSim/MyPC_register/MyPC_tb.v(10): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+vsim -voptargs=+acc work.MyPC_tb
+# vsim -voptargs=+acc work.MyPC_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.MyPC_tb(fast)
+# Loading work.MyPC(fast)
+run -all
+add wave -position insertpoint sim:/MyPC_tb/pc1/*
+# Break key hit 
+# Break in Module MyPC_tb at E:/ModelSim/MyPC_register/MyPC_tb.v line 9
+run -all
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC
+# 
+# Top level modules:
+# 	MyPC
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/MyPC_register/MyPC_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module MyPC_tb
+# 
+# Top level modules:
+# 	MyPC_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+# Break key hit 
+# Break in Module MyPC_tb at E:/ModelSim/MyPC_register/MyPC_tb.v line 9
+vsim -voptargs=+acc work.MyPC_tb
+# vsim -voptargs=+acc work.MyPC_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.MyPC_tb(fast)
+# Loading work.MyPC(fast)
+add wave -position insertpoint sim:/MyPC_tb/pc1/*
+run -all
+# Break key hit 
+# Break in Module MyPC_tb at E:/ModelSim/MyPC_register/MyPC_tb.v line 9

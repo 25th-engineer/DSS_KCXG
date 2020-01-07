@@ -1,0 +1,179 @@
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+# ** Warning: (vsim-3015) E:/ModelSim/registerBank/registerBank_tb.v(97): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'inData'. The port definition is at: E:/ModelSim/registerBank/registerBank.v(4).
+# 
+#         Region: /registerBank_tb/reg_file
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 88
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 88
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 93
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 93
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+# ** Warning: (vsim-3015) E:/ModelSim/registerBank/registerBank_tb.v(32): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'inData'. The port definition is at: E:/ModelSim/registerBank/registerBank.v(4).
+# 
+#         Region: /registerBank_tb/reg_file
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 23
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 23

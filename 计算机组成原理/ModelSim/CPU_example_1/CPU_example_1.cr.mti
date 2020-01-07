@@ -1,0 +1,63 @@
+E:/ModelSim/CPU_example_1/mips_16.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_1/mips_16.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module data_memory
+-- Compiling module control
+-- Compiling module ALUControl
+-- Compiling module JR_Control
+-- Compiling module mips_16
+
+Top level modules:
+	mips_16
+
+} {} {}} E:/ModelSim/CPU_example_1/ALUControl.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_1/ALUControl.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module ALUControl
+-- Compiling module JR_Control
+
+Top level modules:
+	ALUControl
+	JR_Control
+
+} {} {}} E:/ModelSim/CPU_example_1/register_file.v {1 {vlog -work work -vopt -stats=none {E:\ModelSim\CPU_example_1\register_file.v}
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} E:/ModelSim/CPU_example_1/tb_mips16.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_1/tb_mips16.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module tb_mips16
+
+Top level modules:
+	tb_mips16
+
+} {} {}} E:/ModelSim/CPU_example_1/control.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_1/control.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} E:/ModelSim/CPU_example_1/data_memory.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_1/data_memory.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module data_memory
+
+Top level modules:
+	data_memory
+
+} {} {}} E:/ModelSim/CPU_example_1/instr_mem.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_1/instr_mem.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module instr_mem
+
+Top level modules:
+	instr_mem
+
+} {} {}} E:/ModelSim/CPU_example_1/alu.v {1 {vlog -work work -vopt -stats=none E:/ModelSim/CPU_example_1/alu.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}

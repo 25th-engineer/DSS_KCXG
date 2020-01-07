@@ -1,0 +1,56 @@
+module ALU(
+    input wire [15:0] x,
+    input wire [15:0] y,
+    input wire [3:0] select,
+    output [15:0] ans,//ans = answer
+    //status[0:3] //0: zero, 1: carry, 2: negative, 3: overflow
+    //output reg [3:0] status
+    output zero,
+    output carry,
+    output negative,
+    output overflow
+);
+
+    /*
+    ???
+    ???
+    ???
+    ???
+    ???
+    ???
+    ???
+    ???
+    */
+
+
+    wire signed [15:0] tmpX = x, tmpY = y;
+    reg [16:0] result = 17'b0;//??????????16??17???????
+    always@* begin
+        case(select)
+            3'b000: 
+                result = x + y;
+            3'b001:
+                result = tmpX + tmpY;
+            3'b010:
+                result = x - y;
+            3'b011:
+                result = tmpX - tmpY;
+            3'b100:
+                result = x & y;
+            3'b101:
+                result = x | y;
+            3'b110:
+                result = x >> y;
+            3'b111:
+                result = x << y;
+            default:
+                result = 16'b1111111111111111; 
+        endcase
+    end
+    
+    assign ans = result[15:0];
+    assign zero = result == 16'b0 ? 0 : 1;
+    assign negative = result[15];
+    assign overflow = result[16];
+    
+endmodule

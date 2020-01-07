@@ -1,0 +1,32 @@
+Fri Jan 03 21:54:29 CST 2020
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source12.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source12.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source12.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:D:/ModelSim_s2019/fuck/win64/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:eval:1: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+Fri Jan 03 22:01:34 CST 2020
+Trace back: window ".srcobjdlg" was deleted before its visibility changed
+    while executing
+"tkwait visibility $w"
+    (procedure "tk_dialog" line 119)
+    invoked from within
+"tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+    (object "::.main_pane.source12.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+    invoked from within
+"::.main_pane.source12.interior.cs.body.srcobj CheckModification"
+    (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source12.interior.cs.body.srcobj CheckModification}"
+    (command bound to event)
+  <2:D:/ModelSim_s2019/fuck/win64/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+  <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}

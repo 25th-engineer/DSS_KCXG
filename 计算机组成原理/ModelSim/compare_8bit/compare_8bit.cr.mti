@@ -1,0 +1,11 @@
+E:/ModelSim/compare_8bit/compare_8bit.v {0 {vcom -work work -2002 -explicit -vopt -stats=none E:/ModelSim/compare_8bit/compare_8bit.v
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+** Error: E:/ModelSim/compare_8bit/compare_8bit.v(1): near "module": syntax error
+
+} {4.0 5.0} {}} E:/ModelSim/compare_8bit/compare_8bit_vlg_tst.v {0 {vcom -work work -2002 -explicit -vopt -stats=none E:/ModelSim/compare_8bit/compare_8bit_vlg_tst.v
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+** Error (suppressible): E:/ModelSim/compare_8bit/compare_8bit_vlg_tst.v(2): (vcom-1491) Empty source files.
+
+} {} {}}

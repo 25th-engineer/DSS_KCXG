@@ -1,0 +1,273 @@
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Loading work.registerBank_tb
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 23
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 25
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 25
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 32
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# ** Error: E:/ModelSim/registerBank/registerBank_tb.v(12): near "end": syntax error, unexpected end, expecting ';'
+# 
+# 
+# 2 compiles, 1 failed with 1 error. 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 33
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 33
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 42
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 56
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank
+# 
+# Top level modules:
+# 	registerBank
+# 
+# 
+# vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module registerBank_tb
+# 
+# Top level modules:
+# 	registerBank_tb
+# 
+# 
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.registerBank_tb
+# vsim -novopt work.registerBank_tb 
+# Refreshing E:\ModelSim\registerBank\work.registerBank_tb
+# Loading work.registerBank_tb
+# Refreshing E:\ModelSim\registerBank\work.registerBank
+# Loading work.registerBank
+add wave -position insertpoint sim:/registerBank_tb/reg_file/*
+run -all
+# Break in Module registerBank_tb at E:/ModelSim/registerBank/registerBank_tb.v line 55
+# Closing project E:/ModelSim/registerBank/RegisterBank.mpf

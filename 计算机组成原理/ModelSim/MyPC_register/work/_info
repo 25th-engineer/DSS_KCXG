@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+dE:\ModelSim\registerBank
+T_opt
+VCC@9QHH;DohboF3U8h]]31
+04 7 4 work MyPC_tb fast 0
+=1-3c2c30ac982b-5de6624d-1c0-27dc
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OE;O;10.1a;51
+vMyPC
+Imia6@Mag4Dzk8oNaNbX_P1
+VkWo5acgWNPChmdz>mQ9Jl2
+Z0 dE:\ModelSim\MyPC_register
+w1575378591
+8E:/ModelSim/MyPC_register/MyPC.v
+FE:/ModelSim/MyPC_register/MyPC.v
+L0 1
+Z1 OE;L;10.1a;51
+r1
+31
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@my@p@c
+!s100 DP22V3nIA>490M3R=dSbM3
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/MyPC_register/MyPC.v|
+!s108 1575379522.852000
+!s107 E:/ModelSim/MyPC_register/MyPC.v|
+!i10b 1
+!s85 0
+vMyPC_tb
+I=U^aOlFA@EOaH?S0@2]GS1
+V4b79Z[IQ?XdA>_i[mg9f>3
+Z3 dE:\ModelSim\MyPC_register
+w1575379520
+8E:/ModelSim/MyPC_register/MyPC_tb.v
+FE:/ModelSim/MyPC_register/MyPC_tb.v
+L0 1
+R1
+r1
+31
+R2
+n@my@p@c_tb
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/MyPC_register/MyPC_tb.v|
+!i10b 1
+!s100 a^QbcVhS9J0RF@1;9eCFU1
+!s85 0
+!s108 1575379523.016000
+!s107 E:/ModelSim/MyPC_register/MyPC_tb.v|

@@ -1,0 +1,43 @@
+E:/ModelSim/MyCPU/cu.v {1 {vlog -work work -vopt -stats=none {E:\ModelSim\MyCPU\cu.v}
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module cu
+
+Top level modules:
+	cu
+
+} {} {}} E:/ModelSim/MyCPU/register.v {1 {vlog -work work -vopt -stats=none {E:\ModelSim\MyCPU\register.v}
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} E:/ModelSim/MyCPU/ALU.v {1 {vlog -work work -vopt -stats=none {E:\ModelSim\MyCPU\ALU.v}
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} E:/ModelSim/MyCPU/pc.v {1 {vlog -work work -vopt -stats=none {E:\ModelSim\MyCPU\pc.v}
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} E:/ModelSim/MyCPU/acc.v {1 {vlog -work work -vopt -stats=none {E:\ModelSim\MyCPU\acc.v}
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module acc
+
+Top level modules:
+	acc
+
+} {} {}} E:/ModelSim/MyCPU/Datastorage.v {1 {vlog -work work -vopt -stats=none {E:\ModelSim\MyCPU\Datastorage.v}
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Datastorage
+
+Top level modules:
+	Datastorage
+
+} {} {}}

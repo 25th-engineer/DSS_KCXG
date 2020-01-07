@@ -1,0 +1,30 @@
+//*************************************************************
+
+
+ void PutPixel(int x,int y, U16 c )
+{
+	if ( (x < SCR_XSIZE_TFT_240320) && (y < SCR_YSIZE_TFT_240320) )
+		*((((U16*)LCD_BUFFER)[(y)][(x)])) = c;
+		
+}	
+
+
+//*************************************************************
+加操作系统后中断方式改变，(去掉_irq)
+ // 执行I
+ SR_IRQ = (U32)UCOS_IRQHandler; //后
+ 
+	WaveOut(0);
+ 	while(1);
+ 	//出错
+ 	
+//*************************************************************
+
+#define ARRAY_LENGTH(a) (sizeof(a)/sizeof(a[0])) 
+
+extern unsigned char wave_hysy[];//编译器不知其长度
+if(0 ==type ){PlayMusic(wave_hysy,ARRAY_LENGTH(wave_hysy));}//不行，求长度数组不用extern
+//*************************************************************
+
+void PlayMusic(unsigned char wave_arr[])
+len = ARRAY_LENGTH(wave_arr);//出错，wave_arr已变成指针类型

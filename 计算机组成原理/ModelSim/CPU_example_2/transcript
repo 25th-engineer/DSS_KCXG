@@ -1,0 +1,126 @@
+vsim -novopt work.test_Risc_16_bit
+# vsim -novopt work.test_Risc_16_bit 
+# Loading work.test_Risc_16_bit
+# Loading work.Risc_16_bit
+# Loading work.Datapath_Unit
+# Loading work.Instruction_Memory
+# Loading work.GPRs
+# Loading work.alu_control
+# Loading work.ALU
+# Loading work.Data_Memory
+# Loading work.Control_Unit
+add wave -position insertpoint sim:/test_Risc_16_bit/uut/*
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.prog" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : E:/ModelSim/CPU_example_2/Instruction_Memory.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/im
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.data" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : E:/ModelSim/CPU_example_2/Data_Memory.v(25)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "./test/50001111_50001212.o" for writing.
+# 
+# No such file or directory. (errno = ENOENT)    : E:/ModelSim/CPU_example_2/Data_Memory.v(27)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Note: $finish    : E:/ModelSim/CPU_example_2/test_Risc_16_bit.v(21)
+#    Time: 160 ns  Iteration: 0  Instance: /test_Risc_16_bit
+# 1
+# Break in Module test_Risc_16_bit at E:/ModelSim/CPU_example_2/test_Risc_16_bit.v line 21
+run -all
+# Compile of Instruction_Memory.v was successful.
+# Compile of GPRs.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of ALU.v was successful.
+# Compile of alu_control.v was successful.
+# Compile of Datapath_Unit.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Risc_16_bit.v was successful.
+# Compile of test_Risc_16_bit.v was successful.
+# Compile of Parameter.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -novopt work.test_Risc_16_bit
+# vsim -novopt work.test_Risc_16_bit 
+# Refreshing E:\ModelSim\CPU_example_2\work.test_Risc_16_bit
+# Loading work.test_Risc_16_bit
+# Refreshing E:\ModelSim\CPU_example_2\work.Risc_16_bit
+# Loading work.Risc_16_bit
+# Refreshing E:\ModelSim\CPU_example_2\work.Datapath_Unit
+# Loading work.Datapath_Unit
+# Refreshing E:\ModelSim\CPU_example_2\work.Instruction_Memory
+# Loading work.Instruction_Memory
+# Refreshing E:\ModelSim\CPU_example_2\work.GPRs
+# Loading work.GPRs
+# Refreshing E:\ModelSim\CPU_example_2\work.alu_control
+# Loading work.alu_control
+# Refreshing E:\ModelSim\CPU_example_2\work.ALU
+# Loading work.ALU
+# Refreshing E:\ModelSim\CPU_example_2\work.Data_Memory
+# Loading work.Data_Memory
+# Refreshing E:\ModelSim\CPU_example_2\work.Control_Unit
+# Loading work.Control_Unit
+add wave -position insertpoint sim:/test_Risc_16_bit/*
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.prog" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : E:/ModelSim/CPU_example_2/Instruction_Memory.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/im
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.data" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : E:/ModelSim/CPU_example_2/Data_Memory.v(25)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "./test/50001111_50001212.o" for writing.
+# 
+# No such file or directory. (errno = ENOENT)    : E:/ModelSim/CPU_example_2/Data_Memory.v(27)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Note: $finish    : E:/ModelSim/CPU_example_2/test_Risc_16_bit.v(21)
+#    Time: 160 ns  Iteration: 0  Instance: /test_Risc_16_bit
+# 1
+# Break in Module test_Risc_16_bit at E:/ModelSim/CPU_example_2/test_Risc_16_bit.v line 21
+# Break key hit 
+# Compile of Instruction_Memory.v was successful.
+# Compile of GPRs.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of ALU.v was successful.
+# Compile of alu_control.v was successful.
+# Compile of Datapath_Unit.v was successful.
+# Compile of Control_Unit.v was successful.
+# Compile of Risc_16_bit.v was successful.
+# Compile of test_Risc_16_bit.v was successful.
+# Compile of Parameter.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -novopt work.test_Risc_16_bit
+# vsim -novopt work.test_Risc_16_bit 
+# Refreshing E:\ModelSim\CPU_example_2\work.test_Risc_16_bit
+# Loading work.test_Risc_16_bit
+# Refreshing E:\ModelSim\CPU_example_2\work.Risc_16_bit
+# Loading work.Risc_16_bit
+# Refreshing E:\ModelSim\CPU_example_2\work.Datapath_Unit
+# Loading work.Datapath_Unit
+# Refreshing E:\ModelSim\CPU_example_2\work.Instruction_Memory
+# Loading work.Instruction_Memory
+# Refreshing E:\ModelSim\CPU_example_2\work.GPRs
+# Loading work.GPRs
+# Refreshing E:\ModelSim\CPU_example_2\work.alu_control
+# Loading work.alu_control
+# Refreshing E:\ModelSim\CPU_example_2\work.ALU
+# Loading work.ALU
+# Refreshing E:\ModelSim\CPU_example_2\work.Data_Memory
+# Loading work.Data_Memory
+# Refreshing E:\ModelSim\CPU_example_2\work.Control_Unit
+# Loading work.Control_Unit
+add wave -position insertpoint sim:/test_Risc_16_bit/uut/*
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.prog" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : E:/ModelSim/CPU_example_2/Instruction_Memory.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/im
+# ** Warning: (vsim-7) Failed to open readmem file "./test/test.data" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : E:/ModelSim/CPU_example_2/Data_Memory.v(25)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "./test/50001111_50001212.o" for writing.
+# 
+# No such file or directory. (errno = ENOENT)    : E:/ModelSim/CPU_example_2/Data_Memory.v(27)
+#    Time: 0 ps  Iteration: 0  Instance: /test_Risc_16_bit/uut/DU/dm
+# Closing project E:/ModelSim/CPU_example_2/CPU_example_2.mpf

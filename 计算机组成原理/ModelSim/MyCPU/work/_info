@@ -1,0 +1,262 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ModelSim_s2019/fuck/examples
+T_opt
+!s110 1578141213
+VRmd?eKIFjRC6mMT7K8:Mn3
+Z1 04 8 4 work MyCPU_tb fast 0
+=1-3c2c30ac982b-5e10861d-16a-4ca0
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1578141978
+V6AXb7`Y0=i^_zgLjZQzWK3
+R1
+=1-3c2c30ac982b-5e10891a-2b8-2f60
+o-quiet -auto_acc_if_foreign -work work +acc
+R3
+n@_opt1
+R4
+T_opt2
+!s110 1578125835
+VD@OcH98Yd3FCkQGR81YX02
+04 2 4 work cu fast 0
+=1-3c2c30ac982b-5e104a0b-1f7-37f4
+R2
+R3
+n@_opt2
+R4
+R0
+vacc
+Z5 !s110 1578141969
+!i10b 1
+!s100 I@4QA^RH^gXCm3Uf[2KU03
+!s11b aLn0_SD<K76FZlhImZZ3k0
+IIdXTB2A]`Y_IbTSb8FeA;2
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 dE:/ModelSim/MyCPU
+w1578126377
+8E:\ModelSim\MyCPU\acc.v
+FE:\ModelSim\MyCPU\acc.v
+L0 1
+Z8 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z9 !s108 1578141969.000000
+!s107 E:\ModelSim\MyCPU\acc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\ModelSim\MyCPU\acc.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+valu
+R5
+!i10b 1
+!s100 [_:2o5FV?[k[`[akhk]`?2
+!s11b aSF1h1U5:K>9IAogckoOJ0
+IjE`eN@6@VJI89OY^;_dEE2
+R6
+R7
+w1578126388
+8E:\ModelSim\MyCPU\ALU.v
+FE:\ModelSim\MyCPU\ALU.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 E:\ModelSim\MyCPU\ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\ModelSim\MyCPU\ALU.v|
+!i113 0
+R10
+R3
+vcpu
+Z11 !s110 1578141970
+!i10b 1
+!s100 O8A4f7iF2<X]?9dQ[A@Yl2
+!s11b jG8bGi?JOC?OgQ]T<PXB_3
+IUH0j6kVOfbi`_L>5Zbm663
+R6
+R7
+w1578131459
+8E:\ModelSim\MyCPU\MyCPU.v
+FE:\ModelSim\MyCPU\MyCPU.v
+L0 1
+R8
+r1
+!s85 0
+31
+Z12 !s108 1578141970.000000
+!s107 E:\ModelSim\MyCPU\MyCPU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\ModelSim\MyCPU\MyCPU.v|
+!i113 0
+R10
+R3
+vcpustest
+!s110 1578141689
+!i10b 1
+!s100 XXXNoUE`W<lG]M>UU`oY61
+!s11b 95b?9JMzo[ZnRY?>mMkHE1
+I[Gd8ozg0ULbam34V@8h4;0
+R6
+R7
+w1578141686
+Z13 8E:\ModelSim\MyCPU\MyCPU_tb.v
+Z14 FE:\ModelSim\MyCPU\MyCPU_tb.v
+L0 64
+R8
+r1
+!s85 0
+31
+!s108 1578141689.000000
+Z15 !s107 E:\ModelSim\MyCPU\MyCPU_tb.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\ModelSim\MyCPU\MyCPU_tb.v|
+!i113 0
+R10
+R3
+vcu
+R5
+!i10b 1
+!s100 hhl<IGV9MZbFa6_2V?hlW3
+!s11b D^_QVnU8SZRdzk`g[Lhem2
+I]5K0^enF>P_PhngL:0DmA0
+R6
+R7
+w1578131366
+8E:\ModelSim\MyCPU\cu.v
+FE:\ModelSim\MyCPU\cu.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 E:\ModelSim\MyCPU\cu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\ModelSim\MyCPU\cu.v|
+!i113 0
+R10
+R3
+vDatastorage
+R5
+!i10b 1
+!s100 nR;]hY^<:zVKZi79UNW>T1
+!s11b XT8z@W;Wa]Pa5W01f92Pj3
+Iizdn?_z[ZV4U?[cOO>7PJ3
+R6
+R7
+w1561200040
+8E:\ModelSim\MyCPU\Datastorage.v
+FE:\ModelSim\MyCPU\Datastorage.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 E:\ModelSim\MyCPU\Datastorage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\ModelSim\MyCPU\Datastorage.v|
+!i113 0
+R10
+R3
+n@datastorage
+vins
+R5
+!i10b 1
+!s100 d;XP_za>Q=j6bFIY5AnD:0
+!s11b UHEj5fJ>C46:i7GTnE98k3
+IQ<SPg`6HL:[a72PZfn0L@0
+R6
+R7
+w1578131182
+8E:\ModelSim\MyCPU\ins.v
+FE:\ModelSim\MyCPU\ins.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 E:\ModelSim\MyCPU\ins.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\ModelSim\MyCPU\ins.v|
+!i113 0
+R10
+R3
+vMyCPU_tb
+R11
+!i10b 1
+!s100 eYAWDj]509R9Flz=0R8gi3
+!s11b S;K2cMamk=hhX3D9f91:l3
+I995YXYHWh06VLYn<?zb;03
+R6
+R7
+w1578141965
+R13
+R14
+L0 1
+R8
+r1
+!s85 0
+31
+R12
+R15
+R16
+!i113 0
+R10
+R3
+n@my@c@p@u_tb
+vpc
+R11
+!i10b 1
+!s100 5h;H;Ze10]NXgSlX[o2EG3
+!s11b 8gcgO>P0Q7U?zLoB6Q1AV1
+IA]m;;nUAKWWY8ANcQM>;P2
+R6
+R7
+w1578131526
+8E:\ModelSim\MyCPU\pc.v
+FE:\ModelSim\MyCPU\pc.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 E:\ModelSim\MyCPU\pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\ModelSim\MyCPU\pc.v|
+!i113 0
+R10
+R3
+vregister
+R11
+!i10b 1
+!s100 WJg45B?=__;6GC`>CXz7m3
+!s11b 7_Vml4J=dil?eRNnAfj5@0
+InQC<G`dEA86b6ijnO]DOo0
+R6
+R7
+w1578126718
+8E:\ModelSim\MyCPU\register.v
+FE:\ModelSim\MyCPU\register.v
+L0 1
+R8
+r1
+!s85 0
+31
+R12
+!s107 E:\ModelSim\MyCPU\register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\ModelSim\MyCPU\register.v|
+!i113 0
+R10
+R3

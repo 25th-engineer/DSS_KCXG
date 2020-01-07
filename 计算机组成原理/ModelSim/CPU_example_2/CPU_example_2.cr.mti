@@ -1,0 +1,67 @@
+E:/ModelSim/CPU_example_2/Instruction_Memory.v {1 {vlog -work work -vopt E:/ModelSim/CPU_example_2/Instruction_Memory.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Instruction_Memory
+
+Top level modules:
+	Instruction_Memory
+
+} {} {}} E:/ModelSim/CPU_example_2/ALU.v {1 {vlog -work work -vopt E:/ModelSim/CPU_example_2/ALU.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/ModelSim/CPU_example_2/alu_control.v {1 {vlog -work work -vopt E:/ModelSim/CPU_example_2/alu_control.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu_control
+
+Top level modules:
+	alu_control
+
+} {} {}} E:/ModelSim/CPU_example_2/Datapath_Unit.v {1 {vlog -work work -vopt E:/ModelSim/CPU_example_2/Datapath_Unit.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Datapath_Unit
+
+Top level modules:
+	Datapath_Unit
+
+} {} {}} E:/ModelSim/CPU_example_2/Data_Memory.v {1 {vlog -work work -vopt E:/ModelSim/CPU_example_2/Data_Memory.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} E:/ModelSim/CPU_example_2/test_Risc_16_bit.v {1 {vlog -work work -vopt E:/ModelSim/CPU_example_2/test_Risc_16_bit.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module test_Risc_16_bit
+
+Top level modules:
+	test_Risc_16_bit
+
+} {} {}} E:/ModelSim/CPU_example_2/GPRs.v {1 {vlog -work work -vopt E:/ModelSim/CPU_example_2/GPRs.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module GPRs
+
+Top level modules:
+	GPRs
+
+} {} {}} E:/ModelSim/CPU_example_2/Control_Unit.v {1 {vlog -work work -vopt E:/ModelSim/CPU_example_2/Control_Unit.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}} E:/ModelSim/CPU_example_2/Risc_16_bit.v {1 {vlog -work work -vopt E:/ModelSim/CPU_example_2/Risc_16_bit.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Risc_16_bit
+
+Top level modules:
+	Risc_16_bit
+
+} {} {}} E:/ModelSim/CPU_example_2/Parameter.v {1 {vlog -work work -vopt E:/ModelSim/CPU_example_2/Parameter.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}}

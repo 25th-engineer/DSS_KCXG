@@ -1,0 +1,15 @@
+E:/ModelSim/registerBank/registerBank.v {1 {vlog -work work -vopt E:/ModelSim/registerBank/registerBank.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module registerBank
+
+Top level modules:
+	registerBank
+
+} {} {}} E:/ModelSim/registerBank/registerBank_tb.v {1 {vlog -work work -vopt E:/ModelSim/registerBank/registerBank_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module registerBank_tb
+
+Top level modules:
+	registerBank_tb
+
+} {} {}}

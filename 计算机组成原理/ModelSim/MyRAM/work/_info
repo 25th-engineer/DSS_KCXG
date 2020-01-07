@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+dC:\Program Files (x86)\modelsim_win32_10.1a\examples
+vMyRAM
+!i10b 1
+VOE^[TRE0Io>P<MIA<Ez912
+r1
+!s85 0
+31
+Ii3l?>5L4k<ImQnAW]1;8l1
+Z0 dE:\ModelSim\MyRAM
+w1577955571
+8E:/ModelSim/MyRAM/MyRAM.v
+FE:/ModelSim/MyRAM/MyRAM.v
+L0 1
+Z1 OE;L;10.1a;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@my@r@a@m
+!s100 a[KI]HNM6]0keA9D4G`0Z3
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/MyRAM/MyRAM.v|
+!s108 1577955801.191000
+!s107 E:/ModelSim/MyRAM/MyRAM.v|
+vMyRAM_tb
+VLRBU;^DKTM=T3S7jiUAok0
+r1
+31
+I?kX5l1T[_gjeYhd0>Ym[c2
+Z3 dE:\ModelSim\MyRAM
+w1577955796
+8E:/ModelSim/MyRAM/MyRAM_tb.v
+FE:/ModelSim/MyRAM/MyRAM_tb.v
+L0 2
+R1
+R2
+n@my@r@a@m_tb
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/MyRAM/MyRAM_tb.v|
+!s100 8AikT52Cd8T;gnMYoZ27g0
+!s108 1577955801.586000
+!s107 E:/ModelSim/MyRAM/MyRAM_tb.v|

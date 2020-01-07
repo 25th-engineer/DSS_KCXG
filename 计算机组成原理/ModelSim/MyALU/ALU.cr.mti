@@ -1,0 +1,15 @@
+E:/ModelSim/MyALU/MyALU.v {1 {vlog -work work -vopt E:/ModelSim/MyALU/MyALU.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/ModelSim/MyALU/MyALU_tb.v {1 {vlog -work work -vopt E:/ModelSim/MyALU/MyALU_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module MyALU_tb
+
+Top level modules:
+	MyALU_tb
+
+} {} {}}

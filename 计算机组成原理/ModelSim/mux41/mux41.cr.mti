@@ -1,0 +1,15 @@
+E:/ModelSim/mux41/mux41.v {1 {vlog -work work -vopt E:/ModelSim/mux41/mux41.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mux41
+
+Top level modules:
+	mux41
+
+} {} {}} E:/ModelSim/mux41/mux41_tb.v {1 {vlog -work work -vopt E:/ModelSim/mux41/mux41_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mux_tb
+
+Top level modules:
+	mux_tb
+
+} {} {}}

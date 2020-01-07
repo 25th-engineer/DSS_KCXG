@@ -1,0 +1,24 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\ModelSim\registerBank
+vCtrlUnit
+!i10b 1
+!s100 i?`@8cHU;BeWgz3O_knBa0
+Iak5ebHaCKHn@k<QHod[@A0
+V3Q6P20aGKJQa[f09GD_Rf3
+dE:\ModelSim\MyControlUnit
+w1577963687
+8E:/ModelSim/MyControlUnit/MyControlUnit.v
+FE:/ModelSim/MyControlUnit/MyControlUnit.v
+L0 1
+Z1 OE;L;10.1a;51
+r1
+!s85 0
+31
+!s108 1577963690.277000
+!s107 E:/ModelSim/MyControlUnit/MyControlUnit.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/MyControlUnit/MyControlUnit.v|
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@ctrl@unit

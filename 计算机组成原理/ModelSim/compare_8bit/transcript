@@ -1,0 +1,10 @@
+# Compile of mux41.v was successful.
+# Compile of mux41_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.mux_tb
+# vsim -voptargs="+acc" work.mux_tb 
+# Start time: 15:37:59 on Nov 14,2019
+# ** Error (suppressible): (vsim-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# End time: 15:38:00 on Nov 14,2019, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

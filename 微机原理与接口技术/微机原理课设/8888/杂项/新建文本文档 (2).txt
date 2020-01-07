@@ -1,0 +1,147 @@
+.MODEL              TINY
+ADDR_ 8255_ PA         EQU                270H            ;8255 PA口
+ADDR_ 8255_ PB         EQU                271H            ;8255 PB口
+ADDR _8255_ C          EQU                273H            ; 8255控制口
+ADDR_ 273             EQU                 230H           ; I0区74HC273(16位I/0)
+LINE                   EQU                ADDR 273        ;行线1，行线2
+ROW1                  EQU                ADDR_ 8255_ PA  ;列线1
+ROW2                  EQU                ADDR_ 8255_ PB  ;列线2
+.STACK               100
+.DATA
+HUAN  DB 00H, 0COH, 00H, 0COH, OFEH, 0COH, 07H, OFFH, 0C7H, 86H, 6FH, 6CH, 3CH, 60H, 18H, 60H
+DB 1CH, 60H, 1CH, 70H, 36H, 0FOH, 36H, 0D8H, 61H, 9CH, 0C7H, OFH, 3CH, 06H, 00H, 00H
+YING  DB 60H, 00H, 31H, 0C0H, 3FH, 7EH, 36H, 66H, 06H, 66H, 06H, 66H, 0F6H, 66H, 36H, 66H
+DB 37H, 0E6H, 37H, 7EH, 36H, 6CH, 30H, 60H, 30H, 60H, 78H, 00H, 0CFH, 0FFH, 00H, 00H
+SHI  DB 00H, 00H, 06H, 30H, 07H, 30H, OFH, OFFH, 0CH, 30H, 1FH, 0FFH, 3BH, 33H, 7BH, 33H
+DB 1BH, OFFH, 1BH, 33H, 19H, 0BOH, 18H, 0EOH, 18H, 60H, 18H, 0FCH, 19H, 8FH, 1FH, 03H
+YONG  DB 00, 0, 1FH, OFEH, 18H, 0C6H, 18H, 0C6H, 18H, 0C6H, 1FH, OFEH, 018H, 0C6H, 18H, 0C6H
+DB 18H, 0C6H, 1FH, OFEH, 18H, 0C6H, 18H, 0C6H, 30H, 0C6H, 30H, 0C6H, 60H, ODEH, 0COH, 0CCH
+XING  DB O0H, 00H, 1FH, 0FCH, 18H, OCH, 1FH, 0FCH, 18H, 0CH, 1FH, 0FCH, 01H, 80H, 19H, 80H
+DB 1FH, OFEH, 31H, 80H, 31H, 80H, 6FH, 0FCH, 01H, 80H, 01H, 80H, 7FH, 0FFH, 00H, 00H
+YAN  DB 0, 0, 0FFH, 0FFH, 18H, 0CCH, 18H, OCCH, 30H, 0CCH, 30H, OCCH, 7FH, OFFH, 7CH, 0CCH
+DB OFCH, 0CCH, 3CH, 0CCH, 3CH, OCCH, 3DH, 8CH, 3DH, 8CH, 33H, OCH, 06H, 0CH, 0CH, 0CH
+SHIO  DB 01H, 80H, 00H, 0COH, 3FH, 0FFH, 3CH, 06H, 67H, 0CCH, 06H, 0COH, 0CH, 0COH, 07H, 0COH
+DB 06H, 0COH, 7FH, OFFH, 00H, 0COH, 01H, OEOH, 03H, 30H, 06H, 18H, 1CH, 1CH, 70H, 18H
+YANO  DB O0H, 00H, 0FCH, 60H, 0CH, 60H, 6CH, 0FOH, 6CH, 0D8H, 6DH, 8FH, 6FH, 0F8H, 7EH, 00H
+DB 06H, 0C6H, 07H, 66H, 3FH, 0ECH, 0E7H, OECH, 06H, 18H, 1FH, 0FFH, 0CH, 00H, 00H, 00H
+YI  DB 0CH, 0COH, 0CH, 60H, 18H, 7CH, 1BH, 6CH, 33H, 0CH, 73H, 18H, 0F1H, 98H, 31H, 98H
+DB 30H, 0FOH, 30H, 0FOH, 30H, 60H, 30H, 0FOH, 31H, 98H, 33H, OFH, 3EH, 06H, 30H, 00H
+NONE  DB 00H, 00H, 00H, 00H, 00H, 00H, 00H, 00H, 00H, 00H, 00H, 00H, 00H, 00H, 00H, 00H
+.CODE
+START:                   MOV           AX, @DATA 
+MOV            DS, AX
+MOV            ES, AX
+NOP
+CALL             INIT_ I0
+CALL            TEST_ LED ;调用测试子程序,测试LED是否全亮
+CALL             CLEAR ;滚动显示多个字符
+CHS_ SHOW:              MOV             CX, 9
+                         LEA             SI, HUAN
+CHS_ 1 :                 PUSH             CX
+MOV            CX, 16.
+CHS_ 2:                 CALL             DISP_ CH
+INC              SI
+INC              SI
+LOOP            CHS_ 2
+POP             CX
+L0OP            CHS_ 1
+JMP             CHS_ SHOW
+;显示- - -个16*16点阵字子程序，字型码放在DPTR指出的地址
+DISP_ _CH               PROC            NEAR
+PUSH            CX
+MOV			CX, 8
+DISP_ CH_ 1:				CALL				DISP1
+LOOP			DISP_ _CH_ 1
+POP 				CX
+RET
+DISP_ CH .				ENDP
+;显示一一个16*16点阵字子程序，字型码放在显示缓冲区XBUFF
+DISP1					PROC			NEAR
+PUSH			SI
+PUSH			CX
+MOV			CX, 16	;计数器, 16列依次被扫描
+MOV			BL, OFEH			;.上边列输出值
+MOV			BH, OFFH			;下边列输出值
+REPEAT:					MOV			DX, LINE
+MOV			AX, BX
+OUT				DX, AX			;列输出
+LODSB
+CALL				ADJUST; 调整AL,将AL中二进制数旋转180度
+MOV			DX, ROW1
+OUT				DX, AL	;左边行输出
+LODSB
+CALL				ADJUST;调整AL,将AL中二进制数旋转180度
+MOV			DX, ROW2
+OUT				DX, AL	;右边行输出
+CALL				DL1OMS
+CALL				CLEAR
+STC				
+RCL				BL, 1
+RCL				BH, 1	;循环移位BX,行线扫描输出0
+LOOP 			REPEAT
+POP 				CX
+POP				SI
+RET
+DISP1					ENDP
+INIT_ I0 					PROC			NEAR
+MOV			DX, ADDR_ 8255_ _C; 8255控制字地址
+MOV			AL, 80H;设置8255的PA、PB、PC口为输出口
+OUT				DX, AL	;写控制字
+INIT_ I0					ENDP
+CLEAR 					PROC			NEAR
+MOV			AX, 0FFFFH
+MOV			DX, LINE
+OUT				DX, AX
+MOV			AL, 0
+MOV			DX, ROW1
+OUT				DX, AL
+MOV			DX, ROW2
+OUT				DX, AL
+RET
+CLEAR					ENDP	
+;测试LED子程序,点亮LED并延时1S 
+TEST_ LED 				PROC 			NEAR 
+MOV			DX, LINE 
+XOR				AX, AX
+OUT				DX, AX
+MOV			AL, 0FFH
+MOV			DX, ROW1
+OUT				DX, AL
+MOV			DX, ROW2
+OUT				DX, AL
+CALL				DL500ms
+CALL				DL500ms
+RET
+TEST_ LED				ENDP
+;调整AL中取到的字型码的-一个字节,将最高位调整位最低位，最低位调整为最高位
+ADJUST					PROC			NEAR
+PUSH			CX
+MOV			CX, 8
+ADJUST1:					RCL				AL, 1
+XCHG			AL, AH
+RCR				AL, 1
+XCHG			AL, AH
+LOOP			ADJUST1
+MOV 			AL, AH
+POP				CX
+RET
+ADJUST					ENDP
+DL10ms					PROC			NEAR
+PUSH			CX
+MOV			CX, 133
+LOOP			$
+POP				CX
+RET
+DL10ms					ENDP
+DL500ms					PROC			NEAR
+PUSH			CX
+MOV			CX, OFFFFH
+LOOP			$
+POP				CX
+RET
+DL500ms					ENDP
+
+END				START
+
+
+

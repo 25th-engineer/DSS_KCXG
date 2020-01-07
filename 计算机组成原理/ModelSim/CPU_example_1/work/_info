@@ -1,0 +1,216 @@
+m255
+K3
+z0
+!s11f MIXED_VERSIONS
+13
+cModel Technology
+dE:\ModelSim\MyControlUnit
+T_opt
+!s110 1578050128
+VXL24io`D;U]:=7nzae5FP3
+04 9 4 work tb_mips16 fast 0
+=1-3c2c30ac982b-5e0f224f-301-3b04
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+valu
+Z1 !s110 1578050115
+!i10b 1
+!s100 Gn5nzG@EcK3i99RlKRcOR2
+!s11b ?48`CdB`9[AI_g?V6Q_8@0
+IiSdB@ZL<QH?9bhH[hX?lA1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/ModelSim/CPU_example_1
+w1578043820
+8E:/ModelSim/CPU_example_1/alu.v
+FE:/ModelSim/CPU_example_1/alu.v
+L0 3
+Z4 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z5 !s108 1578050115.000000
+!s107 E:/ModelSim/CPU_example_1/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/ModelSim/CPU_example_1/alu.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+R0
+vALUControl
+R1
+!i10b 1
+!s100 U758n^bH1S5gcA:0?zom81
+!s11b RO:fOb@PQZ2_f9JcOb`WU2
+I?=hRMB<AGeGJEH6^8>6n_0
+R2
+R3
+Z7 w1578042658
+Z8 8ALUControl.v
+Z9 FALUControl.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 ALUControl.v|control.v|data_memory.v|E:/ModelSim/CPU_example_1/mips_16.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/ModelSim/CPU_example_1/mips_16.v|
+!i113 0
+R6
+R0
+n@a@l@u@control
+vcontrol
+R1
+!i10b 1
+!s100 aIa2iR_oOL[N8ijf7_9?_3
+!s11b 1=CaQVNDAOdM=0fOR_ZT63
+I7lK@<h6:5BibdARoh63n:0
+R2
+R3
+w1578042681
+8control.v
+Fcontrol.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R10
+R11
+!i113 0
+R6
+R0
+vdata_memory
+R1
+!i10b 1
+!s100 ?fW]M3bZm]lJHcY>;4HP50
+!s11b ]e5S[hgeQ3LY4?SHU8z`10
+I?48SH67TkT;hSE0`SPD>[0
+R2
+R3
+w1578042644
+8data_memory.v
+Fdata_memory.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R10
+R11
+!i113 0
+R6
+R0
+vinstr_mem
+R1
+!i10b 1
+!s100 _YiB;]TCH=1ehTDJeE::K3
+!s11b M]TK_B8L4>fT=FdOGemF61
+I3WIlFFUmNg06Vdck03[;a0
+R2
+R3
+w1578043768
+8E:/ModelSim/CPU_example_1/instr_mem.v
+FE:/ModelSim/CPU_example_1/instr_mem.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/ModelSim/CPU_example_1/instr_mem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/ModelSim/CPU_example_1/instr_mem.v|
+!i113 0
+R6
+R0
+vJR_Control
+R1
+!i10b 1
+!s100 K^LNl8Ai698dF?5kXh0fX0
+!s11b ESF5J?jO1z^2XPdj3k1bR2
+I5zSi_k_h5[LMbD^YzJQ6N3
+R2
+R3
+R7
+R8
+R9
+L0 24
+R4
+r1
+!s85 0
+31
+R5
+R10
+R11
+!i113 0
+R6
+R0
+n@j@r_@control
+vmips_16
+R1
+!i10b 1
+!s100 n5cHoWO7?<<2R?>LO55h?1
+!s11b M2NK3Z41zLkC_ZQklkcG=1
+IVONHi^Uz5IG1nz[[X6g:<3
+R2
+R3
+w1578043061
+8E:/ModelSim/CPU_example_1/mips_16.v
+FE:/ModelSim/CPU_example_1/mips_16.v
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+R10
+R11
+!i113 0
+R6
+R0
+vregister_file
+R1
+!i10b 1
+!s100 eELSEUiVzW_9F;aYo9M^91
+!s11b eOhOXGkHc8CbX4=azSfKP1
+I4^ZEzZMS:d98JOFmkKieJ3
+R2
+R3
+w1578043521
+8E:\ModelSim\CPU_example_1\register_file.v
+FE:\ModelSim\CPU_example_1\register_file.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:\ModelSim\CPU_example_1\register_file.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\ModelSim\CPU_example_1\register_file.v|
+!i113 0
+R6
+R0
+vtb_mips16
+R1
+!i10b 1
+!s100 PWiPie:HGAg`m8ZK@d=R32
+!s11b Z8;dm1Ze=FcGV5@^fNTBN3
+II2UgU@_:Ue8VBICPI0Xk41
+R2
+R3
+w1578042742
+8E:/ModelSim/CPU_example_1/tb_mips16.v
+FE:/ModelSim/CPU_example_1/tb_mips16.v
+L0 5
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/ModelSim/CPU_example_1/tb_mips16.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/ModelSim/CPU_example_1/tb_mips16.v|
+!i113 0
+R6
+R0

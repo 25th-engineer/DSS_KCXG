@@ -1,0 +1,175 @@
+m255
+K3
+13
+cModel Technology
+dE:\ModelSim\CPU_example_1
+vALU
+VWKA:ce>CKBJmlhoT]E;FY1
+r1
+31
+IYF4YbF16aXHBkU=k;6R3o2
+Z0 dE:\ModelSim\CPU_example_2
+w1578047179
+8E:/ModelSim/CPU_example_2/ALU.v
+FE:/ModelSim/CPU_example_2/ALU.v
+L0 5
+Z1 OE;L;10.1a;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@a@l@u
+!i10b 1
+!s85 0
+!s100 <d`X<Ab@bg:nGVC1?F?ZY3
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/CPU_example_2/ALU.v|
+!s108 1578048098.121000
+!s107 E:/ModelSim/CPU_example_2/ALU.v|
+valu_control
+V0haQZO3KLUDdAA<T>D;b@0
+r1
+31
+IWXZcmenJ@ll>SnUNOMg0a2
+Z3 dE:\ModelSim\CPU_example_2
+w1578047188
+8E:/ModelSim/CPU_example_2/alu_control.v
+FE:/ModelSim/CPU_example_2/alu_control.v
+L0 5
+R1
+R2
+!i10b 1
+!s85 0
+!s100 `jhVLKFFc7o^]U3Wi7dQ?2
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/CPU_example_2/alu_control.v|
+!s108 1578048098.299000
+!s107 E:/ModelSim/CPU_example_2/alu_control.v|
+vControl_Unit
+!i10b 1
+V[;FAM?`nHo`XN;[AgA7YS2
+r1
+!s85 0
+31
+I@<Y6:22Ke5:Q<hGl71IW83
+R3
+w1578047221
+8E:/ModelSim/CPU_example_2/Control_Unit.v
+FE:/ModelSim/CPU_example_2/Control_Unit.v
+L0 6
+R1
+R2
+n@control_@unit
+!s100 Db5X^C]9VEn@^eIi68:K;2
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/CPU_example_2/Control_Unit.v|
+!s108 1578048098.675000
+!s107 E:/ModelSim/CPU_example_2/Control_Unit.v|
+vData_Memory
+VQCF]`9HT3H[XO87H;Feg]0
+r1
+31
+I;:X4BBBLj^oY:a097AiJ`1
+R3
+w1578047847
+8E:/ModelSim/CPU_example_2/Data_Memory.v
+FE:/ModelSim/CPU_example_2/Data_Memory.v
+L0 7
+R1
+R2
+n@data_@memory
+!i10b 1
+!s85 0
+!s100 em_1[Xc5ncAZUM>k`3=KK1
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/CPU_example_2/Data_Memory.v|
+!s108 1578048097.970000
+!s107 Parameter.v|E:/ModelSim/CPU_example_2/Data_Memory.v|
+vDatapath_Unit
+VizQIXf`D?Kba7WX`kRM>:2
+r1
+31
+IK[<:e1TNBFgJVEF<Q^[b;1
+R3
+w1578047206
+8E:/ModelSim/CPU_example_2/Datapath_Unit.v
+FE:/ModelSim/CPU_example_2/Datapath_Unit.v
+L0 6
+R1
+R2
+n@datapath_@unit
+!i10b 1
+!s85 0
+!s100 J>]JN9<PjhaD5>`^J^hzT0
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/CPU_example_2/Datapath_Unit.v|
+!s108 1578048098.477000
+!s107 E:/ModelSim/CPU_example_2/Datapath_Unit.v|
+vGPRs
+Vj`Djjf0d]^ij_:UAFkT`i3
+r1
+31
+IBCI@9I7aaN@mlcz^aD]Um2
+R3
+w1578047157
+8E:/ModelSim/CPU_example_2/GPRs.v
+FE:/ModelSim/CPU_example_2/GPRs.v
+L0 6
+R1
+R2
+n@g@p@rs
+!i10b 1
+!s85 0
+!s100 hcj;oHPOgP5PL<H976HP=0
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/CPU_example_2/GPRs.v|
+!s108 1578048097.789000
+!s107 E:/ModelSim/CPU_example_2/GPRs.v|
+vInstruction_Memory
+Vf:GZOS]_ia8QfgQU;1U_[2
+r1
+31
+IG7TGGl9;9RH2UQ]UHj6T?0
+R3
+w1578047144
+8E:/ModelSim/CPU_example_2/Instruction_Memory.v
+FE:/ModelSim/CPU_example_2/Instruction_Memory.v
+L0 6
+R1
+R2
+n@instruction_@memory
+!i10b 1
+!s85 0
+!s100 Y;^E4_2ESM4YMAUg:g4d>2
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/CPU_example_2/Instruction_Memory.v|
+!s108 1578048097.384000
+!s107 Parameter.v|E:/ModelSim/CPU_example_2/Instruction_Memory.v|
+vRisc_16_bit
+VRKzQXSi@lz2_2eAE>CQN`1
+r1
+31
+Io6[>jB?I22HB0:c<2f7Qg3
+R3
+w1578047236
+8E:/ModelSim/CPU_example_2/Risc_16_bit.v
+FE:/ModelSim/CPU_example_2/Risc_16_bit.v
+L0 6
+R1
+R2
+n@risc_16_bit
+!i10b 1
+!s85 0
+!s100 Je<8=iZi<S<Jc_oniI7Ki0
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/CPU_example_2/Risc_16_bit.v|
+!s108 1578048098.837000
+!s107 E:/ModelSim/CPU_example_2/Risc_16_bit.v|
+vtest_Risc_16_bit
+VE8bo^3N>>EVgnIE`?<jhz2
+r1
+31
+IkjV]H11j5PNSJGfG6BHY03
+R3
+w1578048090
+8E:/ModelSim/CPU_example_2/test_Risc_16_bit.v
+FE:/ModelSim/CPU_example_2/test_Risc_16_bit.v
+L0 7
+R1
+R2
+ntest_@risc_16_bit
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|E:/ModelSim/CPU_example_2/test_Risc_16_bit.v|
+!s100 C0D9I:n:mhBf:bQcgD2OP1
+!s108 1578048099.061000
+!s107 Parameter.v|E:/ModelSim/CPU_example_2/test_Risc_16_bit.v|

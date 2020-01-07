@@ -1,0 +1,11 @@
+E:/ModelSim/MyControlUnit/MyControlUnit.v {1 {vlog -work work -vopt E:/ModelSim/MyControlUnit/MyControlUnit.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module CtrlUnit
+
+Top level modules:
+	CtrlUnit
+
+} {} {}} E:/ModelSim/MyControlUnit/MyControlUnit_tb.v {1 {vlog -work work -vopt E:/ModelSim/MyControlUnit/MyControlUnit_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}}

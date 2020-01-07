@@ -1,0 +1,363 @@
+PA8255   EQU  0270H
+                .STACK    100
+                .DATA
+Music     DW  M1,M2,M3,M4,M5,M6,M7,M7,M7M6,M5,M4,M3,M2,M1
+              DW  M1,M2,M1,M2,M3,M2,M3,M4,M3,M4,M5,M4,M5,M6,M5
+              DW M6,M7,M6,M7,M7,M6,M6,M6
+              .CODE
+START    MOV  AX,@DATA
+               MOV DS,AX
+                 CALL  INIT8255
+                CALL Demo
+START1:   MOV DX,PA8255
+                IN  AL,DX
+                CMP AL,0FFH
+                JZ START1
+               XOR AL,0FFH
+               TEST AL,2
+               JZ START2
+               CALL Music1
+              JMP START1
+START2:  TEST AL,4
+               JZ START3
+               CALL Music2
+               JMP START1
+START3: TEST AL,8
+                JZ START4
+               CALL Music3
+               JMP START1
+START4: TEST AL,10H
+                JZ START5
+               CALL Music4
+               JMP START1
+START5: TEST AL,20H
+                JZ START6
+               CALL Music5
+               JMP START1
+START6: TEST AL,40H
+                JZ START7
+               CALL Music6
+               JMP START1
+START7: TEST AL,80H
+                JZ START1
+               CALL Music7
+               JMP START1
+Demo PROC NEAR
+            MOV  CX,38
+            LEA  BX,Music
+Demo10:  PUSH CX
+                 CALL  [BX]
+                 INC  BX
+                 INC  BX
+                 POP CX
+                 LOOP Demo10
+                 RET
+Demo        ENDP
+
+Music1     PROC  NEAR
+                CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T5
+                CALL    T1
+                CALL     T1
+                CALL     W_H
+                CALL     T10
+                CALL     T10
+                CALL     T5
+                CALL     T1
+                CALL      T1
+                RET
+Music1    ENDP
+
+
+Music2     PROC  NEAR
+                CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T5
+                CALL    T1
+                CALL     W_H
+                CALL     T10
+                CALL     T10
+                CALL     T2
+                CALL     T2
+                CALL      T1
+                RET
+Music2    ENDP
+
+Music3     PROC  NEAR
+                CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T2
+                CALL    T2
+                CALL     W_H
+                CALL     T10
+                CALL     T10
+                CALL     T2
+                CALL     T2
+                RET
+Music3    ENDP
+
+Music4     PROC  NEAR
+                CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T2
+                NOP
+                NOP
+                NOP
+                NOP
+                CALL     W_H
+                CALL     T10
+                CALL     T10
+                CALL     T2
+                NOP
+                NOP
+                NOP
+                NOP
+                RET
+Music4    ENDP
+
+Music5     PROC  NEAR
+                CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T1
+                CALL     W_H
+                CALL     T10
+                CALL     T10
+                CALL     T1
+                RET
+Music5    ENDP
+
+Music6     PROC  NEAR
+                CALL   W_L
+                CALL    T10
+                CALL    T5
+                CALL    T2
+                CALL    T2
+                CALL    T1
+                NOP
+                NOP
+                CALL     W_H
+                CALL     T10
+                CALL     T5
+                CALL     T2
+                CALL     T2
+                CALL     T1
+                NOP
+                NOP
+                RET
+Music6    ENDP
+
+Music7     PROC  NEAR
+                CALL   W_L
+                CALL    T10
+                CALL    T5
+                CALL    T2
+                CALL    T2
+                CALL     W_H
+                CALL     T10
+                CALL     T5
+                CALL     T2
+                CALL     T1
+                RET
+Music7    ENDP
+
+M1   PROC   NEAR
+         MOV   CX,1100
+M10:        CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T5
+                CALL    T2
+                CALL    T2
+                NOP
+                NOP
+                NOP
+                LOOP  M11
+M11:        CALL   W_H
+                CALL    T10
+                CALL    T10
+                CALL    T5
+                CALL    T2
+                CALL    T1
+                NOP
+                NOP
+                NOP
+                LOOP M10
+                RET
+M1           ENDP
+
+M2   PROC   NEAR
+         MOV   CX,1150
+M20:        CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T2
+                CALL    T2
+                CALL    T1
+                CALL    T1
+                LOOP  M21
+M21:        CALL   W_H
+                CALL    T10
+                CALL    T10
+                CALL    T2
+                CALL    T2
+                CALL    T1
+                LOOP M20
+                RET
+M2           ENDP
+
+M3   PROC   NEAR
+         MOV   CX,1200
+M30:        CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T5
+                LOOP  M31
+M31:        CALL   W_H
+                CALL    T10
+                CALL    T10
+                CALL    T2
+                CALL    T2
+                NOP
+                NOP
+                LOOP M30
+                RET
+M3          ENDP
+
+M4           PROC   NEAR
+                MOV    CX,1250
+M40:        CALL    W_L
+                CALL    T10
+                CALL    T10
+                CALL    T2
+                CALL    T1
+                PUSH   AX
+                POP     AX
+                PUSH   AX
+                POP     AX
+                LOOP   M41
+M41:        CALL    W_H
+                CALL    T10
+                CALL    T10
+                CALL    T2
+                CALL    T1
+                PUSH   AX
+                POP     AX
+                PUSH   AX
+                POP     AX
+                NOP
+                NOP
+                LOOP M40
+                RET
+M4          ENDP
+
+M5   PROC   NEAR
+         MOV   CX,1300
+M50:        CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T2
+                CALL    T1
+                PUSH   AX
+                POP     AX
+                LOOP  M51
+M51:        CALL   W_H
+                CALL    T10
+                CALL    T10
+                CALL    T2
+                NOP
+                NOP
+                NOP
+                NOP
+                LOOP M50
+                RET
+M5          ENDP
+
+M6   PROC   NEAR
+         MOV   CX,1350
+M60:        CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T1
+                NOP
+                NOP
+                LOOP  M61
+M61:        CALL   W_H
+                CALL    T10
+                CALL    T10
+                CALL    T2
+                PUSH   AX
+                POP     AX
+                LOOP M60
+                RET
+M6          ENDP
+
+M7   PROC   NEAR
+         MOV   CX,1420
+M70:        CALL   W_L
+                CALL    T10
+                CALL    T10
+                CALL    T1
+                LOOP  M71
+M71:        CALL   W_H
+                CALL    T10
+                CALL    T10
+                CALL    T1
+                LOOP M70
+                RET
+M7          ENDP
+
+W_L        PROC    NEAR
+               MOV     DX,C8255
+               MOV     AL,0EH
+               OUT      DX,AL
+               RET
+W_L        ENDP
+
+W_H        PROC    NEAR
+               MOV     DX,C8255
+               MOV     AL,0FH
+               OUT      DX,AL
+               RET
+W_H        ENDP
+
+INIT8255        PROC    NEAR
+               MOV     DX,C8255
+               MOV     AL,90H
+               OUT      DX,AL
+               MOV     DX,C8255
+               MOV     AL,0FH
+               OUT      DX,AL
+               RET
+INIT8255        ENDP
+
+T1        PROC      NEAR
+            CALL        T1
+T1        ENDP
+
+T2        PROC      NEAR
+            CALL        T1
+T2        ENDP
+
+T5        PROC      NEAR
+            CALL        T2
+            CALL        T2
+T5        ENDP
+
+T10        PROC      NEAR
+            CALL        T2
+            CALL        T2
+            CALL        T5
+T10        ENDP
+
+               END START
+
+
+
+
+            
